@@ -12,7 +12,7 @@ import 'downloadjs'
 Vue.use(Vuex);
 Vue.use(BootstrapVue);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
   router,

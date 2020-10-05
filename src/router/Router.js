@@ -27,5 +27,9 @@ const router = new VueRouter({
         { path: '*', component: NotFoundPage}
     ]
 })
+router.beforeEach((to, from, next) => {
+    document.title = "Seneca Creative"
+    next()
+})
 
 export default router;
